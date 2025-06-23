@@ -1,6 +1,6 @@
 from dcim.choices import DeviceStatusChoices
 from dcim.models import ConsolePort, Device, PowerPort
-from extras.scripts import Script
+from extras.scripts import Script, AbortScript, ObjectVar, IPAddressWithMaskVar, BooleanVar
 
 
 class DeviceConnectionsReport(Script):
